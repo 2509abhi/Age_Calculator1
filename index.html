@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(0, 0%, 86%);
+    }
+    h1{
+      font-size: 50px;
+    }
+    button{
+      background-color: #fff;
+      border: none;
+      position: relative;
+      left: 28rem;
+      top:2rem;
+    }
+    input{
+      padding: 1rem;
+      width: 50px;
+      color: hsl(0, 3%, 85%);
+      font-size: 18px;
+    }
+    img{
+      border-radius: 20px;
+      background-color: hsl(259, 100%, 65%);
+      padding: 0;
+      margin: 0;
+    }
+    #body{
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      margin: 5rem 25rem;
+      width: 500px;
+      height: 450px;
+      padding: 2rem;
+    }
+    .change{
+      color: hsl(259, 100%, 65%);
+    }
+    .con{
+      padding: 1rem;
+      margin-right: 5rem;
+      color: grey;
+    }
+    .flex{
+      display: flex;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%);}
+  </style>
+</head>
+<body>
+  <main id="body">
+  <form action="/">
+    <div class="flex">
+      <div class="day con">
+        <label>Day</label><br>
+        <input type="text" class="box" placeholder="DD">
+      </div>
+      <div class="month con">
+        <label>Month</label><br>
+        <input type="text" class="box" placeholder="MM">
+        
+      </div>
+      <div class="year con">
+        <label>Year</label><br>
+        <input type="text" class="box" placeholder="YYYY">
+      </div>
+    </div>
+      <button><img src="assets/images/icon-arrow.svg" alt="icon-arrow"></button>      
+    </form>
+  <hr>
+  <h1><a class="change">--</a>years</h1>
+  <h1><a class="change">--</a>months</h1>
+  <h1><a class="change">--</a>days</h1>
+</main>
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Abhishek Bansal</a>.</p>
+  </div>
+</body>
+</html>
